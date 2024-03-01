@@ -1,4 +1,4 @@
-# Memoization------>😁️
+//Memoization------>
 class Solution {
     public int f(int i,int j,int[][] dp){
         if(i==0 && j==0)return 1;
@@ -17,7 +17,7 @@ class Solution {
     }
 }
 
-# Tabulization--------->😁️
+//Tabulization--------->
 
 class Solution {
     public int uniquePaths(int m, int n) {
@@ -39,7 +39,7 @@ class Solution {
 }
 
 
-# Space Optimization---------->😉️
+//Space Optimization---------->
 class Solution {
     public int uniquePaths(int m, int n) {
         int[]dp=new int[n];
